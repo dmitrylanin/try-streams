@@ -16,7 +16,7 @@ public class Main {
     private static List<Worker> getWorkers() {
         Worker w1 = new Worker("Ss", 39, 390, Position.SENIOR.getPosition());
         Worker w2 = new Worker("Rr", 45, 450, Position.MIDDLE.getPosition());
-        Worker w3 = new Worker("Ee", 41, 410, Position.MIDDLE.getPosition());
+        Worker w3 = new Worker("Gg", 41, 410, Position.MIDDLE.getPosition());
 
         List<Worker> workers = Arrays.asList(w1, w2, w3);
         return workers;
